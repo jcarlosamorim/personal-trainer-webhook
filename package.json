@@ -1,0 +1,12 @@
+{
+  "name": "personal-trainer-webhook",
+  "version": "1.0.0",
+  "description": "WhatsApp Personal Trainer - Webhook Server",
+  "main": "webhook-server.js",
+  "scripts": {
+    "start": "node webhook-server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
