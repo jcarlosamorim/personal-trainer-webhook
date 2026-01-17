@@ -76,25 +76,25 @@ async function processCommand(command) {
       const newState = loadState();
 
       if (newState.streak_days >= 7 && newState.streak_days % 7 === 0) {
-        response = `✅ *POSTOU! REGISTRADO!*\n\n━━━━━━━━━━━━━━━━━━━━━━\n\n🔥 *STREAK: ${newState.streak_days} DIAS!*\n\nIsso aí! Consistência é o jogo.\n\n🏆 Achievement: Semana Consistente!\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nCobrança das 18h: *CANCELADA*\n\nSegue o ritmo!`;
+        response = `✅ *POSTOU! REGISTRADO!*\n\n━━━━━━━━━━━━━━━━━━━━━━\n\n🔥 *STREAK: ${newState.streak_days} DIAS!*\n\nIsso aí! Consistência é o jogo.\n\n🏆 Achievement: Semana Consistente!\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nCobrança das 18h: *CANCELADA*\n\nSegue o ritmo!\n\n━━━━━━━━━━━━━━━━━━━━━━\n📌 *GATILHOS:*\n• *fiz* → Registrar post\n• *checkin* → Check-in\n• *missao* → Missão feita\n• *status* → Ver estado`;
       } else {
-        response = `✅ *REGISTRADO!*\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nPost de hoje: ✓\nStreak atual: ${newState.streak_days} dia${newState.streak_days > 1 ? 's' : ''}\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nCobrança das 18h: *CANCELADA*\n\nBom trabalho. Agora descansa ou faz mais.`;
+        response = `✅ *REGISTRADO!*\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nPost de hoje: ✓\nStreak atual: ${newState.streak_days} dia${newState.streak_days > 1 ? 's' : ''}\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nCobrança das 18h: *CANCELADA*\n\nBom trabalho. Agora descansa ou faz mais.\n\n━━━━━━━━━━━━━━━━━━━━━━\n📌 *GATILHOS:*\n• *fiz* → Registrar post\n• *checkin* → Check-in\n• *missao* → Missão feita\n• *status* → Ver estado`;
       }
       break;
 
     case 'checkin':
       markCheckinDone();
-      response = `✅ *CHECK-IN REGISTRADO!*\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nDia começou com foco.\n\nCobrança das 11h: *CANCELADA*\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nAgora vai executar a missão!`;
+      response = `✅ *CHECK-IN REGISTRADO!*\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nDia começou com foco.\n\nCobrança das 11h: *CANCELADA*\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nAgora vai executar a missão!\n\n━━━━━━━━━━━━━━━━━━━━━━\n📌 *GATILHOS:*\n• *fiz* → Registrar post\n• *checkin* → Check-in\n• *missao* → Missão feita\n• *status* → Ver estado`;
       break;
 
     case 'missao':
       markMissionDone();
-      response = `🎉 *MISSÃO COMPLETA!*\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nVocê fez o que tinha que fazer.\n\nIsso é mais do que 90% das pessoas fazem.\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nCobrança das 14h: *CANCELADA*\n\nQuer fazer mais? Ou tá bom por hoje?`;
+      response = `🎉 *MISSÃO COMPLETA!*\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nVocê fez o que tinha que fazer.\n\nIsso é mais do que 90% das pessoas fazem.\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nCobrança das 14h: *CANCELADA*\n\nQuer fazer mais? Ou tá bom por hoje?\n\n━━━━━━━━━━━━━━━━━━━━━━\n📌 *GATILHOS:*\n• *fiz* → Registrar post\n• *checkin* → Check-in\n• *missao* → Missão feita\n• *status* → Ver estado`;
       break;
 
     case 'status':
       const hoje = new Date().toLocaleDateString('pt-BR');
-      response = `📊 *STATUS - ${hoje}*\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nCheck-in: ${state.checkin_done_today ? '✅' : '❌'}\nMissão: ${state.mission_done_today ? '✅' : '❌'}\nPostou: ${state.posted_today ? '✅' : '❌'}\n\n🔥 Streak: ${state.streak_days || 0} dias\n📨 Mensagens hoje: ${state.messages_today || 0}\n\n━━━━━━━━━━━━━━━━━━━━━━\n\n${!state.posted_today ? '⚠️ Ainda não postou hoje!' : 'Tudo em dia!'}`;
+      response = `📊 *STATUS - ${hoje}*\n\n━━━━━━━━━━━━━━━━━━━━━━\n\nCheck-in: ${state.checkin_done_today ? '✅' : '❌'}\nMissão: ${state.mission_done_today ? '✅' : '❌'}\nPostou: ${state.posted_today ? '✅' : '❌'}\n\n🔥 Streak: ${state.streak_days || 0} dias\n📨 Mensagens hoje: ${state.messages_today || 0}\n\n━━━━━━━━━━━━━━━━━━━━━━\n\n${!state.posted_today ? '⚠️ Ainda não postou hoje!' : 'Tudo em dia!'}\n\n━━━━━━━━━━━━━━━━━━━━━━\n📌 *GATILHOS:*\n• *fiz* → Registrar post\n• *checkin* → Check-in\n• *missao* → Missão feita\n• *status* → Ver estado`;
       break;
 
     case 'ajuda':
