@@ -26,6 +26,11 @@ function loadState() {
     mission_done_today: false,
     posted_today: false,
     streak_days: 0,
+    // Newsletter states
+    newsletter_started_today: false,
+    newsletter_sent_today: false,
+    newsletter_streak: 0,
+    last_newsletter: null,
     date: new Date().toISOString().split('T')[0]
   };
 }
@@ -44,6 +49,9 @@ function saveState(state) {
     state.checkin_done_today = false;
     state.mission_done_today = false;
     state.posted_today = false;
+    // Newsletter resets
+    state.newsletter_started_today = false;
+    state.newsletter_sent_today = false;
   }
 
   fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2));
@@ -92,10 +100,47 @@ function markPosted() {
   console.log(`Post registrado (streak: ${state.streak_days} dias)`);
 }
 
+function markNewsletterStarted() {
+  const state = loadState();
+  state.newsletter_started_today = true;
+  saveState(state);
+  console.log('Newsletter marcada como iniciada');
+}
+
+function markNewsletterSent() {
+  const state = loadState();
+
+  if (!state.newsletter_sent_today) {
+    state.newsletter_sent_today = true;
+
+    // Calculate newsletter streak
+    if (state.last_newsletter) {
+      const lastNews = new Date(state.last_newsletter);
+      const now = new Date();
+      const daysSince = Math.floor((now - lastNews) / (1000 * 60 * 60 * 24));
+      // Newsletter is 2x per week (Tue/Fri), so 3-4 days is normal
+      if (daysSince <= 4) {
+        state.newsletter_streak = (state.newsletter_streak || 0) + 1;
+      } else {
+        state.newsletter_streak = 1;
+      }
+    } else {
+      state.newsletter_streak = 1;
+    }
+
+    state.last_newsletter = new Date().toISOString();
+  }
+
+  saveState(state);
+  console.log(`Newsletter enviada (streak: ${state.newsletter_streak} edições)`);
+}
+
 module.exports = {
   markCheckinDone,
   markMissionDone,
   markPosted,
+  markNewsletterStarted,
+  markNewsletterSent,
   loadState,
   saveState
 };

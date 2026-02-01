@@ -1,0 +1,125 @@
+# Sociedade dos Nexialistas - Framework Completo
+# O Mundo Próprio do José Carlos Amorim
+# Atualizado: 19/01/2026
+
+descricao: |
+  Não é "newsletter de IA". É formação de uma nova categoria de pessoa.
+  Linguagem própria. Conceitos proprietários. Zero competição.
+
+# ================================================
+# 3 PILARES FUNDACIONAIS
+# ================================================
+pilares:
+  aprendizado_por_obsessao:
+    nome: "Aprendizado por Obsessão"
+    definicao: "Seguir o que te obceca, não o que mandam"
+    oposto: "Seguir currículo"
+    gancho_ig: "Larguei 5 faculdades. Hoje ensino em 3 universidades."
+
+  egoismo_estrategico:
+    nome: "Egoísmo Estratégico"
+    definicao: "Ser bom pra você primeiro"
+    oposto: "Viver expectativas alheias"
+    gancho_ig: "Quando disse NÃO, minha vida mudou"
+
+  autoria_cognitiva:
+    nome: "Autoria Cognitiva"
+    definicao: "Criar seus conceitos, não repetir gurus"
+    oposto: "Papagaio de guru"
+    gancho_ig: "Você repete ou você cria?"
+
+# ================================================
+# 6 CONCEITOS-CHAVE
+# ================================================
+conceitos:
+  interseccao:
+    nome: "Intersecção"
+    definicao: "Você É a intersecção dos seus interesses"
+    gancho_ig: "Seus interesses 'aleatórios' são seu superpoder"
+    antitese: "Mercado lotado vs Território único"
+
+  embalagem_cognitiva:
+    nome: "Embalagem Cognitiva"
+    definicao: "Conhecimento embalado é conhecimento pago"
+    gancho_ig: "Gênio invisível vs Gênio pago"
+    antitese: "Saber muito vs Ser reconhecido"
+
+  mundo_proprio:
+    nome: "Mundo Próprio"
+    definicao: "Ambiente onde quem entra absorve sua visão"
+    gancho_ig: "Você tem perfil ou tem lar?"
+    antitese: "Perfil genérico vs Território único"
+
+  conteudo_destilado:
+    nome: "Conteúdo Destilado"
+    definicao: "Acervo + Lente = Output único"
+    gancho_ig: "Por que seu conteúdo parece de qualquer um"
+    antitese: "Copiar formato vs Criar destilado"
+
+  produto_autoexperimento:
+    nome: "Produto de Autoexperimento"
+    definicao: "Solução que nasceu de você resolver seu problema"
+    gancho_ig: "Não venda método de livro"
+    antitese: "Revender curso vs Vender experiência"
+
+  ensino_por_jornada:
+    nome: "Ensino por Jornada"
+    definicao: "Ensina seu percurso, não técnica"
+    gancho_ig: "Sua jornada é seu produto"
+    antitese: "Tutorial genérico vs História real"
+
+# ================================================
+# 6 HEURÍSTICAS
+# ================================================
+heuristicas:
+  - numero: 1
+    nome: "Embalagem Primeiro"
+    definicao: "Sem embalagem, você é gênio invisível"
+
+  - numero: 2
+    nome: "Você É o Nicho"
+    definicao: "Sua combinação única é seu mercado"
+
+  - numero: 3
+    nome: "Consumir = Trabalho"
+    definicao: "SE você embalar o que aprende"
+
+  - numero: 4
+    nome: "Acervo → Lente → Destilado"
+    definicao: "O ciclo de criação"
+
+  - numero: 5
+    nome: "1 Ideia × 1000 Estruturas"
+    definicao: "Não crie 1000 ideias, reembale 1"
+
+  - numero: 6
+    nome: "Produto de Autoexperimento"
+    definicao: "Venda o que nasceu de você"
+
+# ================================================
+# GLOSSÁRIO RÁPIDO
+# ================================================
+glossario:
+  nexialista: "Tipo de pessoa que José forma"
+  embalagem_cognitiva: "Transformar conhecimento em produto"
+  conteudo_destilado: "Criar conteúdo único (Acervo + Lente)"
+  mundo_proprio: "Construir presença diferenciada"
+  interseccao: "Nicho/posicionamento único"
+  acervo: "Coletar ideias/inspirações"
+  lente_propria: "Filtro pessoal sobre o acervo"
+  obesidade_mental: "Consumir sem produzir"
+
+# ================================================
+# REGRAS DE CONTEÚDO
+# ================================================
+regras_post:
+  - "Introduzir UM conceito do glossário"
+  - "Usar a LINGUAGEM própria (termos exatos)"
+  - "Ter a ANTÍTESE clara (o que é vs o que não é)"
+  - "Levar pra newsletter como aprofundamento"
+
+formato:
+  cadencia: "5 posts/semana"
+  horario: "19h-20h"
+  distribuicao: "70% carrossel, 30% estático"
+  cta: "Link newsletter no comentário"

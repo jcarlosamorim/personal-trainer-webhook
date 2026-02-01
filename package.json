@@ -1,12 +1,19 @@
 {
   "name": "personal-trainer-webhook",
-  "version": "1.0.0",
-  "description": "WhatsApp Personal Trainer - Webhook Server",
-  "main": "webhook-server.js",
+  "version": "2.0.0",
+  "description": "WhatsApp Personal Trainer - Webhook + Daily Scheduler",
+  "main": "index.js",
   "scripts": {
-    "start": "node webhook-server.js"
+    "start": "node index.js",
+    "webhook": "node webhook-server.js",
+    "scheduler": "node daily-scheduler.js",
+    "test-morning": "node -e \"require('./daily-scheduler').sendMorningNow()\""
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "js-yaml": "^4.1.0"
   }
 }

@@ -1,0 +1,269 @@
+# Calendário Editorial - Sociedade dos Nexialistas
+# Estrategista: Nexus Strategy
+# Atualizado: 19/01/2026
+# Posicionamento: Formar Nexialistas (não dar dicas)
+
+frequencia: "5 posts/semana (Seg, Ter, Qua, Sex, Sab)"
+foco_atual: "Introdução aos conceitos da Sociedade dos Nexialistas"
+linguagem: "Termos do glossário Nexialista"
+
+# ================================================
+# SEMANA 1 (20-26 Janeiro) - INTRODUÇÃO
+# ================================================
+semana_20_26_jan:
+  tema: "O que é Nexialismo + Segundo Renascimento"
+  newsletter_terca: "O que é Nexialismo"
+  newsletter_sexta: "Por que criei a Sociedade"
+
+  segunda_20:
+    pilar: "Educativo + Conceito"
+    formato: "Carrossel"
+    titulo: "5 prompts que uso TODO DIA"
+    descricao: "Mostrar prompts práticos - conectar com Embalagem Cognitiva"
+    conceito_nexialista: "Embalagem Cognitiva"
+    antitese: "Saber usar IA vs Embalar esse conhecimento"
+    cta: "Salva e me conta qual vai testar primeiro"
+    status: "pendente"
+
+  terca_21:
+    pilar: "Autoridade + Pilar"
+    formato: "Carrossel"
+    titulo: "Por que 2026 é o ano do Nexialista"
+    descricao: "Visão de futuro + introduzir o termo Nexialista"
+    conceito_nexialista: "Nexialista"
+    antitese: "Seguir tendências vs Criar categoria própria"
+    cta: "Na newsletter de amanhã explico os 3 pilares"
+    status: "pendente"
+
+  quarta_22:
+    pilar: "Conexão + Pilar"
+    formato: "Carrossel"
+    titulo: "Como TDAH me fez criar minha própria filosofia"
+    descricao: "Vulnerabilidade + Aprendizado por Obsessão"
+    conceito_nexialista: "Aprendizado por Obsessão"
+    antitese: "Seguir currículo vs Seguir obsessão"
+    cta: "Você também funciona assim?"
+    status: "pendente"
+
+  sexta_24:
+    pilar: "Educativo + Conceito"
+    formato: "Carrossel"
+    titulo: "Você é um Gênio Invisível?"
+    descricao: "Introduzir Embalagem Cognitiva com força"
+    conceito_nexialista: "Embalagem Cognitiva"
+    antitese: "Gênio invisível vs Gênio pago"
+    cta: "Na newsletter eu explico os 5 tipos de embalagem"
+    status: "pendente"
+
+  sabado_25:
+    pilar: "Conexão + Jornada"
+    formato: "Estático"
+    titulo: "Larguei 5 faculdades. Hoje ensino em 3 universidades."
+    descricao: "História pessoal + Aprendizado por Obsessão"
+    conceito_nexialista: "Aprendizado por Obsessão"
+    antitese: "Grade curricular vs Curiosidade genuína"
+    cta: "Esse é um dos 3 pilares do Nexialismo"
+    status: "pendente"
+
+# ================================================
+# SEMANA 2 (27 Jan - 02 Fev) - OBSESSÃO
+# ================================================
+semana_27_jan_02_fev:
+  tema: "Aprendizado por Obsessão (Pilar 1)"
+  newsletter_terca: "Aprendizado por Obsessão"
+  newsletter_sexta: "Minhas 5 faculdades"
+
+  segunda_27:
+    pilar: "Educativo + Pilar"
+    formato: "Carrossel"
+    titulo: "O Framework que substituiu meu diploma"
+    descricao: "OMFA como exemplo de Autoria Cognitiva"
+    conceito_nexialista: "Autoria Cognitiva"
+    antitese: "Papagaio de guru vs Autor de frameworks"
+    cta: "Qual parte mais fez sentido?"
+    status: "pendente"
+
+  terca_28:
+    pilar: "Autoridade + Conceito"
+    formato: "Carrossel"
+    titulo: "3 erros de quem tenta ser 'criador de conteúdo'"
+    descricao: "Posicionamento - conectar com Conteúdo Destilado"
+    conceito_nexialista: "Conteúdo Destilado"
+    antitese: "Copiar formato vs Criar destilado"
+    cta: "Você comete o erro #2?"
+    status: "pendente"
+
+  quarta_29:
+    pilar: "Conexão + Heurística"
+    formato: "Estático"
+    titulo: "Consumir conteúdo é trabalho. SE..."
+    descricao: "Heurística 3: Consumir = Trabalho"
+    conceito_nexialista: "Obesidade Mental"
+    antitese: "Obesidade mental vs Consumo produtivo"
+    cta: "Você embala o que consome?"
+    status: "pendente"
+
+  sexta_31:
+    pilar: "Autoridade + Pilar"
+    formato: "Carrossel"
+    titulo: "1 ano criando frameworks próprios: o que aprendi"
+    descricao: "Reflexão + Autoria Cognitiva"
+    conceito_nexialista: "Autoria Cognitiva"
+    antitese: "Repetir o que leu vs Criar o que viveu"
+    cta: "Você tem frameworks próprios?"
+    status: "pendente"
+
+  sabado_01:
+    pilar: "Conexão + Conceito"
+    formato: "Estático"
+    titulo: "Para de procurar seu nicho"
+    descricao: "Você É o Nicho (Heurística 2)"
+    conceito_nexialista: "Intersecção"
+    antitese: "Procurar nicho vs SER o nicho"
+    cta: "Sua intersecção é seu mercado de um"
+    status: "pendente"
+
+# ================================================
+# SEMANA 3 (03-09 Fev) - EGOÍSMO ESTRATÉGICO
+# ================================================
+semana_03_09_fev:
+  tema: "Egoísmo Estratégico (Pilar 2) + Teaser"
+  newsletter_terca: "Egoísmo Estratégico"
+  newsletter_sexta: "Quando disse NÃO"
+
+  segunda_03:
+    pilar: "Educativo + Pilar"
+    formato: "Carrossel"
+    titulo: "O prompt perfeito não existe, mas..."
+    descricao: "Último educativo puro antes do teaser"
+    conceito_nexialista: "Produto de Autoexperimento"
+    antitese: "Buscar perfeição vs Iterar com intenção"
+    cta: "Qual seu maior desafio com prompts?"
+    status: "pendente"
+
+  terca_04:
+    pilar: "Autoridade + Pilar"
+    formato: "Carrossel"
+    titulo: "Ser egoísta me tornou mais útil"
+    descricao: "Egoísmo Estratégico explicado"
+    conceito_nexialista: "Egoísmo Estratégico"
+    antitese: "Viver pra agradar vs Servir a si primeiro"
+    cta: "Você consegue dizer NÃO?"
+    status: "pendente"
+
+  quarta_05:
+    pilar: "Teaser"
+    formato: "Carrossel"
+    titulo: "Algo novo vem aí..."
+    descricao: "TEASER do curso/produto"
+    conceito_nexialista: "Mundo Próprio"
+    antitese: "Perfil genérico vs Lar para sua audiência"
+    cta: "Comenta NEXIAL pra ser avisado"
+    status: "pendente"
+
+  sexta_07:
+    pilar: "Venda"
+    formato: "Carrossel"
+    titulo: "[LANÇAMENTO] Sociedade dos Nexialistas"
+    descricao: "ABERTURA oficial"
+    conceito_nexialista: "Todos os pilares"
+    cta: "Link na bio"
+    status: "pendente"
+
+  sabado_08:
+    pilar: "Prova Social"
+    formato: "Carrossel"
+    titulo: "O que muda quando você vira Nexialista"
+    descricao: "Benefícios + depoimentos"
+    conceito_nexialista: "Ensino por Jornada"
+    antitese: "Aprender técnica vs Absorver jornada"
+    cta: "Vagas limitadas - link na bio"
+    status: "pendente"
+
+# ================================================
+# STORIES - ROTINA SEMANAL
+# ================================================
+stories_rotina:
+  segunda:
+    tema: "Início de semana + Preview do post + Conceito do dia"
+    quantidade: "5-7 stories"
+
+  terca:
+    tema: "Bastidores + Caixinha usando linguagem Nexialista"
+    quantidade: "5-7 stories"
+
+  quarta:
+    tema: "Dia de post + Engajamento sobre conceito"
+    quantidade: "5-7 stories"
+
+  quinta:
+    tema: "Conteúdo extra + Enquete sobre pilares"
+    quantidade: "3-5 stories"
+
+  sexta:
+    tema: "Dia de post + Reflexão Nexialista"
+    quantidade: "5-7 stories"
+
+  sabado:
+    tema: "Bastidores + Mundo Próprio em construção"
+    quantidade: "3-5 stories"
+
+  domingo:
+    tema: "Review da semana + Preview + Newsletter"
+    quantidade: "3-5 stories"
+
+# ================================================
+# HASHTAGS POR CONCEITO
+# ================================================
+hashtags:
+  nexialismo:
+    - "#nexialismo"
+    - "#nexialista"
+    - "#sociedadedosnexialistas"
+    - "#mundoproprio"
+    - "#autoriacognitiva"
+
+  educativo:
+    - "#ia"
+    - "#inteligenciaartificial"
+    - "#chatgpt"
+    - "#claude"
+    - "#criadoresdeconteudo"
+
+  autoridade:
+    - "#empreendedorismo"
+    - "#marketingdigital"
+    - "#posicionamento"
+    - "#marcapessoal"
+
+  conexao:
+    - "#tdah"
+    - "#neurodivergente"
+    - "#jornada"
+    - "#vulnerabilidade"
+
+  filosofia:
+    - "#primeirosprincipio"
+    - "#pensamentosistemico"
+    - "#filosofia"
+    - "#mindset"
+
+# ================================================
+# MÉTRICAS DE ACOMPANHAMENTO
+# ================================================
+metricas_semanais:
+  semana_20_26:
+    engajamento: null
+    comentarios_media: null
+    saves_media: null
+    alcance_total: null
+    novos_seguidores: null
+    newsletter_signups: null
+
+  semana_27_02:
+    engajamento: null
+    comentarios_media: null
+    saves_media: null
+    alcance_total: null
+    novos_seguidores: null
+    newsletter_signups: null
