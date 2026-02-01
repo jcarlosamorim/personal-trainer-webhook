@@ -278,6 +278,8 @@ const server = http.createServer(async (req, res) => {
         // OPES MARKETING — Carousel Approval Handler
         // ============================================
         const selectedId = (
+          data.message?.buttonOrListid ||
+          data.message?.content?.singleSelectReply?.selectedRowID ||
           data.selectedId || data.selected_id ||
           data.listResponse?.selectedId ||
           data.message?.selectedId || ''
